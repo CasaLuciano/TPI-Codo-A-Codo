@@ -1,0 +1,93 @@
+#barra-nav{
+    background-color:#353a40;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#img-navCAC{
+    width: 10%;
+    height: 10%;
+}
+.texto-blanco{
+    color: white;
+}
+.texto-verde{
+    color: green;
+}
+.texto-gris{
+    color: gray;
+}
+.navbar-collapse{
+    display: flex;
+    justify-content: space-between;
+}
+#navbarTogglerDemo01{
+    font-size: 115%;
+}
+.card{
+    
+}
+#oradores{
+    margin-left:    7rem;
+    margin-right:   7rem;
+}
+.subrayar{
+    border-bottom: 1px dotted #000;
+}
+#color-btn-envio{
+    width: 100%;
+    color: white;
+    background-color:#96c93e;
+}
+.input-datos{
+    width: 100%;
+}
+.textarea-datos{
+    width: 100%;
+}
+.titulos-oradores {
+    text-align: center;
+    padding: 10px;
+}
+.container-fluid{
+    padding: 0%;
+    gap: 1px;
+}
+.img-honolulu{
+    height: 100%;
+    width: 100%;
+}
+.honolulu{
+    width:100%;
+}
+.honolulu-desc{
+    width:100%;
+    padding: 1%;
+    background-color: #353a40;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card{
+    width: 30%;
+    height:100%;
+}
+.brillo-oscuro{
+    filter:brightness(50%);
+}
+#honolulu-articulo{
+    margin-top:1rem
+}
+.footer{
+    height: 90px;
+    width: 100%;
+    background-color:#043c62;
+    align-items: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 1.5rem;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    width: 4.8rem;
+}
