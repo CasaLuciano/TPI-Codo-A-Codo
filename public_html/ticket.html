@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>CODO A CODO</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <nav id="barra-nav" class="navbar navbar-expand-lg navbar-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <img id="img-navCAC" src="images/codoacodo.png" alt="codo a codo">
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        <p> <span class="texto-blanco">Conf Bs As</span></p>
+                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html"> <span class="texto-blanco">La conferencia</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href=""> Los oradores</a>
+                            </li>
+                            <li class="nav-item" >
+                                <a class="nav-link " href=""> El lugar y la fecha</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Conviértete en orador</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="ticket.html"><span class="texto-verde">Comprar tickets</span></a>
+                            </li>
+                        </ul>
+                    </div>
+            </nav>
+        </header>
+        <main>
+            <article class="d-flex justify-content-center m-1 gap-2 mt-4">
+                <section class="text-center border border-blue p-3 ">
+                    <h3>Estudiante</h3>
+                    <p>Tienen un descuento</p>
+                    <h3>80%</h3>
+                    <p>* presentar documentacion</p>
+                </section>
+                <section class="text-center border border-green p-3 ">
+                    <h3>Trainee</h3>
+                    <p>Tienen un descuento</p>
+                    <h3>50%</h3>
+                    <p>* presentar documentacion</p>
+                </section>
+                <section class="text-center border border-yellow p-3">
+                    <h3>Junior</h3>
+                    <p>Tienen un descuento</p>
+                    <h3>15%</h3>
+                    <p>* presentar documentacion</p>
+                </section>
+            </article>
+            <div class="text-center">
+                <h5>VENTA</h5>
+                <h1>VALOR DE TICKET 200$</h1>
+            </div>
+            <div class="container">
+                <form>
+                    <div class="row mb-4">
+                        <div class="col">
+                            <div class="mb-3">
+                                <input type="text" id="nombre" class="form-control" placeholder="Nombre">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="mb-3">
+                                <input type="password" id="apellido" class="form-control" placeholder="Apellido">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-2">
+                        <div class="col">
+                            <input type="email" id="email" class="form-control" placeholder="Correo">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <label>Cantidad</label>
+                        </div>
+                        <div class="col">
+                            <label>Categoria</label>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <input type="text" id="cantidad" class="form-control" placeholder="Cantidad">
+                        </div>
+                        <div class="col">
+                            <select name="categoria" id="categoria" class="form-control">
+                                <option value="estudiante">Estudiante</option>
+                                <option value="trainee">Trainee</option>
+                                <option value="junior">Junior</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col pay-amount-back p-3">
+                            <p class="text-blue" id="mostrar-total">Total a pagar $</p>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-2">
+                        <button id="color-btn-envio" type="submit" class="btn">Borrar</button>
+                        <button id="color-btn-envio" type="submit" class="btn">Resumen</button>
+                    </div>
+                    
+                </form>
+            </div>
+        </main>
+    </body>
+        <!-- El footer -->
+    <footer class="footer d-flex justify-content-evenly text-center">
+        <a href="">Preguntas frecuentes</a>
+        <a href="">Contáctanos</a>
+        <a href="">Prensa</a>
+        <a href="">Conferencias</a>
+        <a href="">Términos y condiciones</a>
+        <a href="">Privacidad</a>
+        <a href="">Estudiantes</a>    
+    </footer>
+    <script></script>
+</html>

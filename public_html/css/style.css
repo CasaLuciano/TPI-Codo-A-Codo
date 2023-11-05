@@ -91,3 +91,18 @@
     color: white;
     width: 4.8rem;
 }
+.border-blue{
+    border-color: blue !important;
+}
+.border-yellow{
+    border-color: #fdc314 !important;
+}
+.border-green{
+    border-color: green !important;
+}
+.text-blue{
+    color: blue;
+}
+.pay-amount-back{
+    background-color: #cce5ff;
+}
