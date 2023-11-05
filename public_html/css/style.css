@@ -35,7 +35,7 @@
 .subrayar{
     border-bottom: 1px dotted #000;
 }
-#color-btn-envio{
+.color-btn-envio{
     width: 100%;
     color: white;
     background-color:#96c93e;

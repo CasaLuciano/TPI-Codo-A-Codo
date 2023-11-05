@@ -37,19 +37,19 @@
         </header>
         <main>
             <article class="d-flex justify-content-center m-1 gap-2 mt-4">
-                <section class="text-center border border-blue p-3 ">
+                <section id="estudiante" class="text-center border border-blue p-3 ">
                     <h3>Estudiante</h3>
                     <p>Tienen un descuento</p>
                     <h3>80%</h3>
                     <p>* presentar documentacion</p>
                 </section>
-                <section class="text-center border border-green p-3 ">
+                <section id="trainee"class="text-center border border-green p-3 ">
                     <h3>Trainee</h3>
                     <p>Tienen un descuento</p>
                     <h3>50%</h3>
                     <p>* presentar documentacion</p>
                 </section>
-                <section class="text-center border border-yellow p-3">
+                <section id="junior"class="text-center border border-yellow p-3">
                     <h3>Junior</h3>
                     <p>Tienen un descuento</p>
                     <h3>15%</h3>
@@ -65,18 +65,18 @@
                     <div class="row mb-4">
                         <div class="col">
                             <div class="mb-3">
-                                <input type="text" id="nombre" class="form-control" placeholder="Nombre">
+                                <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Nombre">
                             </div>
                         </div>
                         <div class="col">
                             <div class="mb-3">
-                                <input type="password" id="apellido" class="form-control" placeholder="Apellido">
+                                <input type="text" name="apellido" id="apellido" class="form-control" placeholder="Apellido">
                             </div>
                         </div>
                     </div>
                     <div class="row mb-2">
                         <div class="col">
-                            <input type="email" id="email" class="form-control" placeholder="Correo">
+                            <input type="email" id="email" name="email" class="form-control" placeholder="Correo">
                         </div>
                     </div>
                     <div class="row">
@@ -89,26 +89,25 @@
                     </div>
                     <div class="row mb-3">
                         <div class="col">
-                            <input type="text" id="cantidad" class="form-control" placeholder="Cantidad">
+                            <input type="text" id="cantidad" name="cantidad"class="form-control" placeholder="Cantidad">
                         </div>
-                        <div class="col">
+                        <div id="select-form" class="col">
                             <select name="categoria" id="categoria" class="form-control">
-                                <option value="estudiante">Estudiante</option>
-                                <option value="trainee">Trainee</option>
-                                <option value="junior">Junior</option>
+                                <option value="80">Estudiante</option>
+                                <option value="50">Trainee</option>
+                                <option value="15">Junior</option>
                             </select>
                         </div>
                     </div>
                     <div class="row mb-4">
-                        <div class="col pay-amount-back p-3">
+                        <div class="col pay-amount-back p-2">
                             <p class="text-blue" id="mostrar-total">Total a pagar $</p>
                         </div>
                     </div>
                     <div class="d-flex gap-2">
-                        <button id="color-btn-envio" type="submit" class="btn">Borrar</button>
-                        <button id="color-btn-envio" type="submit" class="btn">Resumen</button>
+                        <button id="borrar" class="color-btn-envio" type="submit" class="btn">Borrar</button>
+                        <button id="resumen"class="color-btn-envio" type="submit" class="btn">Resumen</button>
                     </div>
-                    
                 </form>
             </div>
         </main>
@@ -123,5 +122,5 @@
         <a href="">Privacidad</a>
         <a href="">Estudiantes</a>    
     </footer>
-    <script></script>
+    <script src="/js/script.js"></script>
 </html>
